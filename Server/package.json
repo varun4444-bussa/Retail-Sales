@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "cd ../Client && npm install && npm run build",
-    "start": "node --max-old-space-size=4096 src/index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
