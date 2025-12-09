@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/ap';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://retail-sales-5hu1.onrender.com';
 
 export const api = {
   // Sample/Transaction endpoints - Fetches data from database via server
